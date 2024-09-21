@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 const { z } = require("zod");
 const JWT_SECRET_KEY = "CcbecbbJHBHB152";
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://SDataBase:MV7xznfY2LDw8olp@cluster0.e7czw.mongodb.net/Todo-app-database");
+mongoose.connect("mongodb+srv://SDataBase:<password>@cluster0.e7czw.mongodb.net/Todo-app-database");
 
 
 const app = express();
